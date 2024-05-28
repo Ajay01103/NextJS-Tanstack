@@ -20,7 +20,7 @@ const ProductsPage = async () => {
   const products = await getProducts()
   const data = await getData()
   return (
-    <main className="flex flex-col items-center justify-center gap-y-10 w-full p-10">
+    <main className="flex flex-col items-center justify-center gap-y-10 w-full p-16">
       Products
       <div className="w-full">
         <DataTable

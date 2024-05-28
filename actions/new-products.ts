@@ -14,3 +14,10 @@ export async function getProducts() {
 
   return products
 }
+
+export const getProductsById = async (id: number) => {
+  const res = await axios.get(`http://127.0.0.1:8787/products/${id}`)
+  const productId = await res.data
+
+  return productId
+}

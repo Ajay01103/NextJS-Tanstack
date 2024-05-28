@@ -50,7 +50,7 @@ export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData
   })
 
   return (
-    <div>
+    <div className="scroll-smooth">
       <div className="rounded-md border">
         <div className="flex items-center py-4 ml-4">
           <Input
